@@ -8,7 +8,7 @@ namespace SportsStore.Models
 {
     public class EFProductRepository : IProductRepositiory
     {
-        private ApplicationDbContext context;
+        private ApplicationDbContext context;           
 
         public EFProductRepository(ApplicationDbContext ctx)
         {
